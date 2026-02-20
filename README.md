@@ -1,6 +1,6 @@
 # Graphcode
 
-> The filesystem is an implementation detail.
+> The filesystem is an implementation detail.  
 > The dependency graph is the real structure.
 
 ---
@@ -26,7 +26,7 @@ The true structure of a system is its **dependency graph**.
 
 Graphcode proposes a simple but radical inversion:
 
-> Make the semantic dependency graph the canonical representation of software.
+> Make the semantic dependency graph the canonical representation of software.  
 > Treat files as projections.
 
 ---
@@ -43,7 +43,7 @@ Graphcode flips the pipeline:
 
 Human/Agent → edits graph → system → emits deterministic text projections.
 
-The graph becomes the source of truth.
+The graph becomes the source of truth.  
 The filesystem becomes an artifact.
 
 ---
@@ -88,7 +88,7 @@ Programming becomes **graph transformation**.
 
 ### 1. Architecture Is Directionality
 
-Layering is not convention.
+Layering is not convention.  
 It is a constraint system over edges.
 
 Example:
@@ -103,9 +103,9 @@ Architecture becomes enforceable, not aspirational.
 
 ### 2. Refactoring Is Structural
 
-Rename a symbol → change a node property.
-Move functionality → reattach a node.
-Split a module → partition a subgraph.
+Rename a symbol → change a node property.  
+Move functionality → reattach a node.  
+Split a module → partition a subgraph.  
 
 Text updates are projections, not manual edits.
 
@@ -120,22 +120,22 @@ The filesystem is preserved for:
 * Git integration
 * Human familiarity
 
-But it is no longer canonical.
+But it is no longer canonical.  
 
-Graph → deterministic pretty-printer → files.
+Graph → deterministic pretty-printer → files.  
 
-Not the other way around.
+Not the other way around.  
 
 ---
 
 ### 4. Context Is Subgraph Selection
 
-AI systems and static tooling don’t “search files.”
-They traverse adjacency.
+AI systems and static tooling don’t “search files.”  
+They traverse adjacency.  
 
-Context window = selected subgraph.
-Refactor scope = induced subgraph.
-Review diff = edge delta.
+Context window = selected subgraph.  
+Refactor scope = induced subgraph.  
+Review diff = edge delta.  
 
 ---
 
@@ -157,18 +157,18 @@ This aligns software representation with how compilers and AI systems already re
 
 ## Not a Text Editor Replacement
 
-Graphcode does not eliminate files.
+Graphcode does not eliminate files.  
 
-It demotes them.
+It demotes them.  
 
-Compilers expect files.
-Build tools expect directories.
-Git expects line diffs.
+Compilers expect files.  
+Build tools expect directories.  
+Git expects line diffs.  
 
-Graphcode integrates with the existing ecosystem while shifting authority upward to the semantic layer.
+Graphcode integrates with the existing ecosystem while shifting authority upward to the semantic layer.  
 
-Evolutionary compatibility.
-Revolutionary abstraction.
+Evolutionary compatibility.  
+Revolutionary abstraction.  
 
 ---
 
@@ -182,7 +182,7 @@ Graphcode aims to become:
 * A topology-aware diff and merge model
 * A graph-first interface for human and AI collaboration
 
-Not just better navigation.
+Not just better navigation.  
 
 A different programming model.
 
@@ -202,13 +202,13 @@ These are research questions as much as engineering problems.
 
 ## Status
 
-Graphcode is a vision and exploration of a graph-native programming paradigm.
+Graphcode is a vision and exploration of a graph-native programming paradigm.  
 
-It challenges the assumption that text files are the fundamental unit of software.
+It challenges the assumption that text files are the fundamental unit of software.  
 
-They are not.
+They are not.  
 
-The graph is.
+The graph is.  
 
 ---
 
